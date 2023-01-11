@@ -120,15 +120,13 @@ dist= list(step="gamma",  past_overlap="bern", future_overlap="bern")
 
 #Set the priors
 Par0= list(step= c(0.004, 0.224, 0.045, 0.233, 0.054, 0.004, 0.055, 0.439, 0.037, 0.037),
-           #angle= c(0.036, 0.0011, 0.0032, 0.0038, 0.032, 0.001, 0.95, 0.8, 0.6, 0.7),
-           overlap_past=c(0.28, 0.2, 0.91, 0.34, 0.08),
-           overlap_future=c(0.89, 0.02, 0.18, 0.84, 0.01))
+           overlap_past=c(0.28, 0.2, 0.99, 0.34, 0.08),
+           overlap_future=c(0.01, 0.02, 0.18, 0.99, 0.01))
 
 #Fix Distribution parameters
 fixPar0= list(step= c(0.002, 0.224, 0.045, 0.233, 0.054, 0.004, 0.055, 0.439, 0.037, 0.037),
-              #angle= c(-0.1517, 0.00043, -0.00064, 0.0054, -0.006, 0.0798, 0.967, 0.9, 0.912,  0.8417),
-              overlap_past=c(0.94, 0.001, 0.95, 0.001, 0.015),
-              overlap_future=c(0.92, 0.001, 0.001, 0.97, 0.001))
+              overlap_past=c(0.84, 0.001, 0.95, 0.001, 0.015),
+              overlap_future=c(0.01, 0.001, 0.001, 0.97, 0.001))
 
 
 #fit the model
