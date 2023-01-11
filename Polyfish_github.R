@@ -6,6 +6,8 @@
 # Script written and developed by Nuno Sales Henriques
 # with contribution of: Tommaso Russo, Antonio Parisi and Ramiro Magno 
 
+# ----- // ----- #
+
 # At this stage of the analysis, the AIS data has gone through the data processing described on section 3.2 of the  aforementioned paper:
 # 3.2.1 - Data cleaning
 # 3.2.2 - Split data into fishing trips (trackid)
