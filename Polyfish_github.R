@@ -15,14 +15,14 @@
 # 3.2.4 - Interpolation (1 datapoint per minute)
 
 #AIS dataset format:
-#AIS = AISdata[,c("trackid", "mmsi", "LAT", "LON", "DATE", "SPE", "HEA")]
+#AISdata = AISdata[,c("trackid", "mmsi", "LAT", "LON", "DATE", "SPE", "HEA")]
 
 #Variables description:
   # Trackid -> ID of each fishing trips
   # mmsi -> Vessel identifier
   # LAT -> Latitude
   # LON -> Longitude
-  # DATE -> AIS pind timestamp (in Chronological Object format)
+  # DATE -> AIS datapoint timestamp (in Chronological Object format)
   # SPE -> Speed over ground (km/h)
   # HEA -> Course over ground (degrees)
 #####
