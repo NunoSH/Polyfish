@@ -167,7 +167,7 @@ AISdata_predicted$sts_smooth=states_pred_sm
 
 vessel=unique(AISdata_predicted$mmsi)
 
-#clean state 3
+#clean state 3 (Hauling)
 clean_st3=NULL
 
 for(k in 1:length(vessel)){
@@ -192,7 +192,7 @@ for(k in 1:length(vessel)){
 
 
 
-#Clean state 4
+#Clean state 4 (Deploying)
 clean_st3_st4=NULL
 
 for(k in 1:length(vessel)){
