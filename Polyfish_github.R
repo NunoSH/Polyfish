@@ -134,7 +134,7 @@ t_start=Sys.time()
 m=fitHMM(data = AISdata_prep, nbStates = 5, 
          Par0 = Par0, dist = dist, estAngleMean = list(angle=T),
          fixPar= fixPar0,
-         formula = ~state4(future_overlap),
+         formula = ~state4(future_overlap) + state3(past_overlap),
          stateNames = c( "Slow_nav", "Nav", "Haul", "Deploy", "Slow_nav"))
 t_end=Sys.time()
 print(m)
